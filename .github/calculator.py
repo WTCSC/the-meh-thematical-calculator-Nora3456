@@ -35,11 +35,4 @@ if symbol == '/'and number_2 == 0:
 
 else:
     print (f"Ok, are you sure you want the answer to this insanely hard question... {number_1} / {number_2} = {division()}. Great, can I go home now.")
-def continue_exit():
-    input(f"Do you want to 1: Continue torturing me by asking more questions, or 2: Release me from this misery and go find someone else to answer your questions.")
 
-# continue_exit = input(f"Before I start, 1. are you sure you want me to continously answer your questions (torture), or 2. Leave me from this misery and go find someone else to answer your math questions:") 
-# while continue_exit == '1':
-
-    #if continue_exit == '2':
-        #print("That's all the questions you tiny brain could come up with? Wow, fine by me though.")
