@@ -7,19 +7,17 @@ This code runs a calculator. Although, there's an interesting feature to the cal
 ## You might be wondering, how do you use this calculator?
 
 Below is a detailed step-by-step walkthrough of how to use the calculator.
-
 <br/> 
 
-### __First__, how to run the program:
+### First, how to run the program:
 
 1. Save/copy the code. 
 2. Create a new file (name it something simple that represents the code like calculator.py).
 3. Open your program/terminal and open the file you created.
 4. Press the play icon (▶️) to run the script in the terminal!
-
 <br/>
 
-## __Second__ How to run the calculator after opening the program:
+##  How to run the calculator after opening the program:
 
 1. The calculator will give you a welcome message, then ask you for your first number. **Have your equation you want answered decided before you answer the calculators first question.** To answer the first question type in whatever number is the start of your equation, then press enter, **only type the first number!**. 
 2. After doing step 1, the calculator will ask you what you want to do (in terms of adding(+), subtracting(-), multplying(*), or dividing(/)). **Only type in the symbol that represents what you would like to do**, after typing your answer, press enter.
