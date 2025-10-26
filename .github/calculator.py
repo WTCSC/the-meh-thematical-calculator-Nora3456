@@ -32,7 +32,6 @@ if symbol == '*':
 
 if symbol == '/'and number_2 == 0:
     print("You think you're so funny don't you. Incase you didnt remember, dividing a number by 0 is impossible. Thanks for wasting my time. ")
-
-else:
+if symbol == '/':
     print (f"Ok, are you sure you want the answer to this insanely hard question... {number_1} / {number_2} = {division()}. Great, can I go home now.")
 
