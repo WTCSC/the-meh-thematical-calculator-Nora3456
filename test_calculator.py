@@ -1,8 +1,9 @@
 
 import pytest
-from test_calculator import addition, subtraction, multiplication, division
+from calculator import addition, subtraction, multiplication, division
+import unittest
 
-# Test for addition
+# Test for addition 
 def test_positive_addition():
     """Test 2 positive numbers for addition"""
     assert addition(8, 3) == 11
@@ -44,6 +45,7 @@ def test_negative__multiplication():
 def test_positive_decimals_multiplication():
     """Test 2 positive decimal numbers for multiplication"""
     assert multiplication(8.3, 5.2) == 43.16
+    
 
 # Tests for division
 def test_positive_division():
@@ -52,20 +54,20 @@ def test_positive_division():
 
 def test_postitive_and_negative_division():
     """Test 1 negative and 1 positive number for division"""
-    assert multiplication(-8, 5) == -1.6
+    assert division(-8, 5) == -1.6
 
 def test_negative_division():
     """Test 2 negative numbers for division"""
-    assert multiplication(-8, -5) == -1.6
+    assert division(-8, -5) == 1.6
 
 def test_0_division():
     """Test 2 positive numbers, one being 0, for division"""
-    assert division(8, 0) == ValueError
+    assert division(8, 0) == ZeroDivisionError
+
 
 def test_positive_decimals_division():
     """Test 2 positive decimal numbers for division"""
-    assert division(8.3, 5.2) == 1.5961538462
-
+    assert division(8.3, 5.2) == 1.6
 
 
 
